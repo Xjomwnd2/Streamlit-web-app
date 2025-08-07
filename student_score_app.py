@@ -45,3 +45,4 @@ if st.button("Predict Score"):
     input_data = np.array([[study_hours, sleep_hours, attendance]])
     predicted_score = model.predict(input_data)[0]
     st.success(f"Predicted Student Score: {predicted_score:.2f}")
+    
